@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in COBOL related to data truncation during MOVE operations between variables with different PICTURE clauses.  The primary issue involves moving alphanumeric data between fields with differing sizes or definitions.  The solution emphasizes careful consideration of data types and sizes to prevent unexpected data loss.
