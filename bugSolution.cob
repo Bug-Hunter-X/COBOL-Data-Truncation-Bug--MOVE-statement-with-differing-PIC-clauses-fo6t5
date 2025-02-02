@@ -1,0 +1,1 @@
+01  WS-AREA-1 PIC X(100). 01  WS-AREA-2 PIC X(100). PROCEDURE DIVISION. MOVE "Hello" TO WS-AREA-1. MOVE WS-AREA-1 TO WS-AREA-2. DISPLAY WS-AREA-2. STOP RUN.  *This solution ensures that both areas are defined with the same PIC clause, preventing truncation.  It is recommended to explicitly define the data types and lengths to avoid such issues.* 
